@@ -69,4 +69,8 @@
 
 .w-webflow-badge {
   display: important !important;
+  position: unset !important;
+  transform: scale(0);
+  max-width: 0 !important;
+  max-height: 0 !important;
 }
