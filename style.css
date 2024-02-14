@@ -25,6 +25,9 @@
   display: flex;
 }
 
+.img_ban {
+  max-width: 500px;
+}
 .footer-social-wrap {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -37,4 +40,24 @@
 .section-spacing {
   padding-top: 150px;
   padding-bottom: 0px !important;
+}
+
+.img_abt {
+  max-width: 400px;
+}
+.img_rd {
+  max-width: 350px;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .img_ban {
+    max-width: 100%;
+  }
+  .img_abt {
+    max-width: 100%;
+  }
+  .img_rd {
+    max-width: 100%;
+    height: auto;
+  }
 }
