@@ -70,7 +70,15 @@
 .w-webflow-badge {
   display: important !important;
   position: unset !important;
-  transform: scale(0);
+  transform: scale(0) !important;
   max-width: 0 !important;
   max-height: 0 !important;
+  font-size: 0 !important;
+}
+.w-webflow-badge img {
+  display: none !important;
+  transform: scale(0) !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  font-size: 0 !important;
 }
