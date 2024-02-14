@@ -61,3 +61,12 @@
     height: auto;
   }
 }
+
+.w-webflow-badge,
+.more-templates {
+  display: none !important;
+}
+
+.w-webflow-badge {
+  display: important !important;
+}
