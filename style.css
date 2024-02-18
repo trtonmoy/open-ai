@@ -3,9 +3,9 @@
     224deg,
     #8ec1c5 15%,
 
-    #e91926 58%,
+    #206bb5 58%,
     var(--color--primary-5) 77%,
-    #8ec1c5 96%
+    #4dbaf9 96%
   ) !important;
 }
 
@@ -81,4 +81,10 @@
   max-width: 0 !important;
   max-height: 0 !important;
   font-size: 0 !important;
+}
+
+@media screen and (max-width: 678px) {
+  .vid {
+    max-width: 100%;
+  }
 }
